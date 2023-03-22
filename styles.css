@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	padding-top: 25px;
+	width: 600px;
+	height: 220px;
+	background: whitesmoke;
+	text-align: center;
+	border: 1px solid black;
+	border-bottom: 0;
+}
+.border-bottom{
+	border-top: 1px solid black;
+	margin-top: 10px;
+}
+ul li {
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  border-right: 1px solid black;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+ul li:last-child {
+  border-right: none;
+}
+h1{
+	font-size: 26px;
+	font-family: "Gill Sans", sans-serif;
+}
+h2{
+	font-size: 16px;
+	font-family: "Gill Sans", sans-serif;
+	opacity: 0.5;
+	border-bottom: 1px solid black ;
+	padding-bottom: 10px;
+}
+h3{
+	font-size: 18px;
+	font-family: "Gill Sans", sans-serif;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	opacity: 0.8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+figure{
+	
+}
+figure figcaption{
+	font-size: 12px;
+	opacity: 0.6;
+	font-family: "Gill Sans", sans-serif;
+}
+img {
+	width:25px ;
+}
+.block1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 700px;
+  display: flex;
+  border: 1px solid black;
+  border-top: 0;
+  font-size: 16px;
+}
+.block2{
+  background: whitesmoke;
+  width: 170px;
+  padding: 10px;
+  border-right: 1px solid black;
+  color: black;
+  font-family: "Gill Sans", sans-serif;
+}
+ol{
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+ol li{
+	margin-left: 0;
+	margin-bottom: 15px;
+	list-style-type: none;
+	font-size: 14px;
+	opacity: 0.6;
+}
+.kitten{
+	display: block;
+	width:50px ;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+}
+.block3{
+	width: 430px;
+  background: whitesmoke;
+  padding: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 115px 300px;
+}
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6, .grid-item7, .grid-item8 {
+  font-size: 14px;
+  font-family: "Gill Sans", sans-serif;
+  opacity: 0.8;
+  padding: 10px; 
+}
+.grid-item1, .grid-item5{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.grid-item2, .grid-item6{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.grid-item3, .grid-item7{
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.grid-item4, .grid-item8{
+  font: italic 1.2em "Fira Sans", serif;
+  border-left: 1px solid black;
+  font-size: 13px;
+  opacity: 0.6;
+}
+p{
+	font: italic 1.2em "Fira Sans", serif;
+  font-size: 13px;
+  opacity: 0.6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+}
